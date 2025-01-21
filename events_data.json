@@ -1,0 +1,35 @@
+ [
+    {
+      "title": "shantui 12T",
+      "start": "2025-01-12T14:30:00",
+      "extendedProps": {
+        "status": "done"
+      }
+    },
+    {
+      "title": "Forklift 16T",
+      "start": "2025-01-13T07:00:00",
+      "backgroundColor": "green",
+      "borderColor": "green"
+    },
+    {
+      "title": "Sinotruck HOWO",
+      "start": "2025-01-13T07:00:00",
+      "backgroundColor": "green",
+      "borderColor": "green"
+    }
+    ,
+    {
+      "title": "Sinotruck HOWO",
+      "start": "2025-01-23T07:00:00",
+      "backgroundColor": "green",
+      "borderColor": "green"
+    }
+    ,
+    {
+      "title": "Sinotruck HOWO",
+      "start": "2025-01-11T07:00:00",
+      "backgroundColor": "green",
+      "borderColor": "green"
+    }
+  ]
