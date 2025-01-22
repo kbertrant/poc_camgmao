@@ -14,7 +14,7 @@
             <select class="form-select" id="id_cat" name="id_cat" aria-label="Categorie du produit" required>
               <option selected>Choisir categorie</option>
                 <option value="">Scanner</option>
-                <option value="">Echographe</option>
+                <option value="">Echographes</option>
                 <option value="">Sterilisateur</option>
                 <option value="">Instruments chirurgicaux</option>
                 <option value="">Microscopes</option>

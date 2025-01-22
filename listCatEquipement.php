@@ -130,23 +130,33 @@
                                 </thead>
                                 <tBody>
                                     <tr>
-                                        <td scope="col">TR</td>
-                                        <td scope="col">TRACTEUR ROUTIER </i></td>
+                                        <td scope="col">SCAN</td>
+                                        <td scope="col"> Scanners </i></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
-                                        <td scope="col">VS</td>
-                                        <td scope="col">VEHICULE SERVICE </i></td>
+                                        <td scope="col">ECH</td>
+                                        <td scope="col">Echographes  </i></td>
                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
-                                        <td scope="col">RM</td>
-                                        <td scope="col">REMORQUE </i></td>
+                                        <td scope="col">ST</td>
+                                        <td scope="col">Sterilisateurs  </i></td>
+                                       <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="col">LH</td>
+                                        <td scope="col">Lits hospitalisation </i></td>
+                                       <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="col">MI</td>
+                                        <td scope="col">Microscopes </i></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
-                                        <td scope="col">FL</td>
-                                        <td scope="col"> FORKLIFT</i></td>
+                                        <td scope="col">IC</td>
+                                        <td scope="col"> Instruments chirurgicaux</i></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                         

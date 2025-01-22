@@ -166,90 +166,90 @@
                                 <tbody>
                                     <tr>
                                         <td scope="col">1</td>
-                                        <td scope="col"><i class='bx bxs-sushi'></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
+                                        <td scope="col">Sterilisateur</td>
+                                        <td scope="col">Diminution de chaleur</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
+                                        <td scope="col">--</td>
+                                        <td scope="col">Ampoules violette etainte</td>
+                                        <td scope="col">Dr. NANA</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">2</td>
-                                        <td scope="col"><i class='bx bxs-shield-plus'></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
+                                        <td scope="col">Scanners</td>
+                                        <td scope="col">Imagerie pas nette </td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
+                                        <td scope="col">Colette FONKOU</td>
+                                        <td scope="col">Ampoules grillées</td>
+                                        <td scope="col">Dr. Mbollo </td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">3</td>
-                                        <td scope="col"><i class='bx bxs-pear' ></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
+                                        <td scope="col">Scanners</td>
+                                        <td scope="col">Image pas nette</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
+                                        <td scope="col">Olivier Wague</td>
+                                        <td scope="col">Plancher d'impression </td>
+                                        <td scope="col">Dr. NTAMACK Leslie</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">4</td>
-                                        <td scope="col"><i class='bx bxs-speaker'></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col">Instruments</i></td>
+                                        <td scope="col">Scalpel cassé</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
+                                        <td scope="col">Georges W.</td>
+                                        <td scope="col">Rouille sur les instruments</td>
+                                        <td scope="col">Dr. Ayele </td>
+                                        <td scope="col">02/09/2022</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">5</td>
-                                        <td scope="col"><i class='bx bxs-wallet-alt'></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col">Microscopes</td>
+                                        <td scope="col">Lentilles endommagées</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-danger">En panne</button></td>
+                                        <td scope="col">--</td>
+                                        <td scope="col">Lentilles d'aggrandissement  </td>
+                                        <td scope="col"> Blaise NONO</td>
+                                        <td scope="col">17/06/2018</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">6</td>
-                                        <td scope="col"><i class='bx bxs-wallet-alt'></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col">Scanners</td>
+                                        <td scope="col">Demarrage bruyant </td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
+                                        <td scope="col">Rene Bell</td>
+                                        <td scope="col">Surface de scanne</td>
+                                        <td scope="col"> Henri S.</td>
+                                        <td scope="col">11/02/2021</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7</td>
-                                        <td scope="col"><i class='bx bxs-bug-alt'></i></td>
-                                        <td scope="col">Perte de puissance signalée</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"></td>
-                                        <td scope="col">Moteur 012 etablissement</td>
-                                        <td scope="col">Berié paul</td>
+                                        <td scope="col">Table hospitalisation</td>
+                                        <td scope="col">Accoudoir et mousse </td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
+                                        <td scope="col">Antoine N.</td>
+                                        <td scope="col">Boite alimentation</td>
+                                        <td scope="col">Dr Mbeleck</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">8</td>
-                                        <td scope="col"><i class='bx bxs-pyramid'></i></td>
-                                        <td scope="col">Changement filtre air</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cour</button></td>
-                                        <td scope="col"><img src="employee.jpg" alt="Portrait" class="rounded-circle" style="width: 40px; height: 40px;"> M.    Arnaud ZANG</td>
-                                        <td scope="col">JAC 012 </td>
-                                        <td scope="col">Noubissie </td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col">Scanners</td>
+                                        <td scope="col">Circuit de charge</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
+                                        <td scope="col">M. ZANG</td>
+                                        <td scope="col">RANCON</td>
+                                        <td scope="col">DR. Noubissie </td>
+                                        <td scope="col">12/05/2024</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                 </tbody>

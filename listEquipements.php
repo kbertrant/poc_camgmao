@@ -101,35 +101,45 @@
                             <div class="modal-body">
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">CATEGORIE</label>
-                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
-                                    <option selected></option>
-                                    <option value="1">FORKLIFT</option>
-                                    <option value="2">TRACTEUR ROUTIER</option>
-                                    <option value="3">REMORQUE</option>
-                                    <option value="3">VEHICULE SERVICE</option>
+                                <select class="form-select" id="id_cat" name="id_cat" aria-label="Categorie du produit" required>
+                                    <option selected>Choisir categorie</option>
+                                    <option value="">Scanner</option>
+                                    <option value="">Echographes</option>
+                                    <option value="">Sterilisateur</option>
+                                    <option value="">Instruments chirurgicaux</option>
+                                    <option value="">Microscopes</option>
+                                    <option value="">Lits hospitalisation</option>
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">MODEL/MARQUE</label>
+                                <label for="nomEquip" class="form-label">NUM SERIE</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">MODEL</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">MARQUE</label>
                                 <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">DESCRIPTION</label>
                                 <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
+                            
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">CHASSIS</label>
-                                <input type="number" class="form-control" id="nomEquip" name="nomEquip" required>
+                                <label for="nomEquip" class="form-label">DATE ACQUISITION</label>
+                                <input type="date" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">DATE</label>
-                                <input type="number" class="form-control" id="nomEquip" name="nomEquip" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="nomEquip" class="form-label">STATUS</label>
+                                <label for="nomEquip" class="form-label">COUT D'ACHAT</label>
                                 <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
-                            
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">FOURNISSEUR</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
                             </div>
                             <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
@@ -146,11 +156,12 @@
                             <table class="table table-striped table-bordered" id="produitable">
                                 <thead>
                                     <tr>
-                                        <th scope="col">N°</th>
-                                        <th scope="col">N.serie</th>
+                                        <th scope="col">N° Serie</th>
+                                        <th scope="col">MARQUE</th>
+                                        <th scope="col">MODEL</th>
                                         <th scope="col">DESC</th>
-                                        <th scope="col">DISPLAY</th>
-                                        <th scope="col">DATE</th>
+                                        <th scope="col">CATEGORIE</th>
+                                        <th scope="col">DATE ACHAT</th>
                                         <th scope="col">STATUT</th>
                                         <th scope="col">Action</th>
                                     </tr>
@@ -158,41 +169,64 @@
                                 <tBody>
                                     <tr>
                                         <td scope="col">7039</td>
-                                        <td scope="col">WDB 10150</i></td>
-                                        <td scope="col">Canion mercedes</td>
-                                        <td scope="col">TR7039</td>
-                                        <td scope="col">30/06/2017</td>
+                                        <td scope="col">Alternup medical </i></td>
+                                        <td scope="col">A345</td>
+                                        <td scope="col">Table Operation electrique</td>
+                                        <td scope="col">Instruments chirurgicaux</td>
+                                        <td scope="col">2022-11-20</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">6059</td>
-                                        <td scope="col">WDB 18550</i></td>
-                                        <td scope="col">Canion mercedes</td>
-                                        <td scope="col">TR6059</td>
-                                        <td scope="col">02/11/2017</td>
+                                        <td scope="col">Medison</i></td>
+                                        <td scope="col"> Sonoace X8</td>
+                                        <td scope="col">Echographes </td>
+                                        <td scope="col">Echographe et Imagerie</td>
+                                        <td scope="col">2021-04-20</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-success">PRET</button></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7015</td>
-                                        <td scope="col">WDB 19050</i></td>
-                                        <td scope="col">FUSO</td>
-                                        <td scope="col">TR7015</td>
-                                        <td scope="col">05/02/2018</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm  btn-success">PRET</button></td>
+                                        <td scope="col">Alternup medical</i></td>
+                                        <td scope="col">Olympus</td>
+                                        <td scope="col">Endoscopie Olympus</td>
+                                        <td scope="col">Endoscopie Olympus</td>
+                                        <td scope="col">2018-08-10</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm  btn-danger">PANNE</button></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
-                                        <td scope="col">7003</td>
-                                        <td scope="col">WDB 18190</i></td>
+                                        <td scope="col">7103</td>
+                                        <td scope="col">Alternup medical </i></td>
                                         <td scope="col">Hyster 13t</td>
                                         <td scope="col">TR7003</td>
                                         <td scope="col">15/04/2017</td>
+                                        <td scope="col">2019-04-04</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
-                                        
+                                    <tr>
+                                        <td scope="col">7203</td>
+                                        <td scope="col">Sigma</i></td>
+                                        <td scope="col">KONTRON</td>
+                                        <td scope="col">Imagerie medical</td>
+                                        <td scope="col">Echographe Imagic Elite</td>
+                                        <td scope="col">2020-11-30</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="col">7103</td>
+                                        <td scope="col">Alternup medical </i></td>
+                                        <td scope="col">Sarcon</td>
+                                        <td scope="col">Panneau d'alimentation en gaz</td>
+                                        <td scope="col">Instruments chirurgicaux</td>
+                                        <td scope="col">2021-11-01</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                    </tr>
                                 </tBody>
 
                             </table>
