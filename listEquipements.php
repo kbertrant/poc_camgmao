@@ -175,7 +175,7 @@
                                         <td scope="col">Instruments chirurgicaux</td>
                                         <td scope="col">2022-11-20</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                        <td scope="col"><button type="button" onclick="window.location.href='detailEquipement.php'" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">6059</td>
@@ -185,7 +185,7 @@
                                         <td scope="col">Echographe et Imagerie</td>
                                         <td scope="col">2021-04-20</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-success">PRET</button></td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                        <td scope="col"><button type="button" onclick="window.location.href='detailEquipement.php'" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7015</td>
@@ -195,7 +195,7 @@
                                         <td scope="col">Endoscopie Olympus</td>
                                         <td scope="col">2018-08-10</td>
                                         <td scope="col"><button type="button" class="btn btn-sm  btn-danger">PANNE</button></td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                        <td scope="col"><button type="button" onclick="window.location.href='detailEquipement.php'" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7103</td>
@@ -205,7 +205,7 @@
                                         <td scope="col">15/04/2017</td>
                                         <td scope="col">2019-04-04</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                        <td scope="col"><button type="button" onclick="window.location.href='detailEquipement.php'" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7203</td>
@@ -215,7 +215,7 @@
                                         <td scope="col">Echographe Imagic Elite</td>
                                         <td scope="col">2020-11-30</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                        <td scope="col"><button type="button" onclick="window.location.href='detailEquipement.php'" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7103</td>
@@ -225,7 +225,7 @@
                                         <td scope="col">Instruments chirurgicaux</td>
                                         <td scope="col">2021-11-01</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">REPOS</button></td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                        <td scope="col"><button type="button" onclick="window.location.href='detailEquipement.php'" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                 </tBody>
 
