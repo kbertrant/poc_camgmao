@@ -265,3 +265,55 @@
     }); 
     </script>
 </html>
+
+
+<form action="" method="POST">
+                                <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="nomEquip" class="form-label">Equipement</label>
+                                    <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                        <option selected></option>
+                                        <option value="1">7023-Scanner Alternup medical </option>
+                                        <option value="2">3409-Lit electrique chirurgicale </option>
+                                        <option value="3">2367-Endoscope Alternup medical</option>
+                                        <option value="3">5609-Echographe Blader</option>
+                                        <option value="3">1178-Tensiometre OmRON M3</option>
+                                        <option value="4">3465-Otoscope MacroView à FO LED </option>
+                                    </select>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="nomEquip" class="form-label">Service</label>
+                                    <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                        <option selected></option>
+                                        <option value="1">Marternite</option>
+                                        <option value="2">Ophtamologie</option>
+                                        <option value="3">Cardiologie</option>
+                                        <option value="3">Traumatologie</option>
+                                        <option value="3">Neurologie</option>
+                                        <option value="4">Bacteriologie</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nomEquip" class="form-label">Daignostique</label>
+                                    <textarea type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="nomEquip" class="form-label">ACTIF</label>
+                                    <input type="number" class="form-control" id="nomEquip" name="nomEquip" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nomEquip" class="form-label">DEMANDEUR</label>
+                                    <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="nomEquip" class="form-label">DATE</label>
+                                    <input type="date" class="form-control" id="nomEquip" name="nomEquip" required>
+                                </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                <button type="submit" class="btn btn-primary">Soumettre</button>
+                                </div>
+                            </form>

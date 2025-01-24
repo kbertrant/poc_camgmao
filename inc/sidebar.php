@@ -164,7 +164,12 @@
           <div data-i18n="Basic">Fournisseur</div>
         </a>
       </li>
-      
+      <li class="menu-item ">
+        <a href="signalementsPanne.php" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-store"></i>
+          <div data-i18n="Basic">Signalements de panne</div>
+        </a>
+      </li>
     </ul>
   </aside>
   

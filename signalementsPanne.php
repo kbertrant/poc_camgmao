@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>CAMGMAO -Details Equipement</title>
+    <title>CAMGMAO - Ordres de travail</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
@@ -15,16 +15,21 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
     <link
       href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/demo.css" />
+    
     <!-- Icons. Uncomment required icon fonts -->
     <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/animate.cs" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- Core CSS -->
     <link rel="stylesheet" href="assets/vendor/css/core.css" class="template-customizer-core-css" />
@@ -74,35 +79,75 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">Details </span> Equipements
+            <span class="text-muted fw-light">Signaler  </span> une panne
         </h4>
         
-        <!-- Content wrapper -->
-        <div class="content-wrapper">
-            <!-- Content -->
+        <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
+            <div class="flex-grow-1 mt-3 mt-sm-5">
+                <div
+                    class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-4 flex-md-row flex-column gap-4">
+                    <?php
+                    @include('addEquipement');
+                    ?>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEquip"
+                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouvelle panne</button>
+                </div><br>
+                <div class="modal fade" id="addEquip" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="addEquipLabel">Nouvelle panne</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <form action="soumus.php" method="POST">
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label for="nomEquip" class="form-label">Equipement</label>
+                                        <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                            <option selected></option>
+                                            <option value="1">7023-Scanner Alternup medical </option>
+                                            <option value="2">3409-Lit electrique chirurgicale </option>
+                                            <option value="3">2367-Endoscope Alternup medical</option>
+                                            <option value="3">5609-Echographe Blader</option>
+                                            <option value="3">1178-Tensiometre OmRON M3</option>
+                                            <option value="4">3465-Otoscope MacroView à FO LED </option>
+                                        </select>
+                                    </div>
+                                
+                                    <div class="mb-3">
+                                        <label for="nomEquip" class="form-label">Service</label>
+                                        <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                            <option selected></option>
+                                            <option value="1">Marternite</option>
+                                            <option value="2">Ophtamologie</option>
+                                            <option value="3">Cardiologie</option>
+                                            <option value="3">Traumatologie</option>
+                                            <option value="3">Neurologie</option>
+                                            <option value="4">Bacteriologie</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="nomEquip" class="form-label">Daignostique</label>
+                                        <textarea type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="nomEquip" class="form-label">DEMANDEUR</label>
+                                        <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                                    <button type="submit" class="btn btn-primary">Ajouter</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="container-xxl flex-grow-1 container-p-y">
-              
-              <div class="row">
-                <div class="col-md-12">
-                  <ul class="nav nav-pills flex-column flex-md-row mb-3">
-                    <li class="nav-item">
-                      <a class="nav-link " href="detailEquipement.php"><i class="bx bx-user me-1"></i> Details</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="detailEquipementMaintenance.php"
-                        ><i class="bx bx-bell me-1"></i> Maintenance</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="detailEquipementPeriode.php"
-                        ><i class="bx bx-link-alt me-1"></i> Periodicité</a>
-                    </li>
-                  </ul>
-                  <div class="card mb-4">
-                    <h5 class="card-header"> Maintenance</h5>
-                    <!-- Account -->
+                <div class="card">
+                    <h5 class="card-header">Liste des pannes</h5>
                     <div class="card-body">
-                    <div class="table-responsive  text-nowrap">
+                        <div class="table-responsive  text-nowrap">
                             <table class="table table-striped table-bordered" id="produitable">
                                 <thead>
                                     <tr>
@@ -124,7 +169,7 @@
                                         <td scope="col">Diminution de chaleur</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
                                         <td scope="col">--</td>
-                                        <td scope="col">Ampoules violette etainte</td>
+                                        <td scope="col">Ampoules violette eteinte</td>
                                         <td scope="col">Dr. NANA</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
@@ -211,17 +256,9 @@
                             </table>
                         </div>
                     </div>
-                    <!-- /Account -->
-                  </div>
-                  
                 </div>
-              </div>
             </div>
-            <!-- / Content -->
-
-            <div class="content-backdrop fade"></div>
-          </div>
-          <!-- Content wrapper -->
+        </div>
     </div>
 
 
@@ -276,6 +313,14 @@
     <!-- Core plugin JavaScript-->
     
     <!-- Page JS -->
+        <!-- Vendors JS -->
+    <script src="{{ asset('assets/vendor/libs/apex-charts/apexcharts.js')}}"></script>
+
+<!-- Main JS -->
+<script src="{{ asset('assets/js/main.js')}}"></script>
+
+<!-- Page JS -->
+<script src="assets/js/dashboards-analytics.js"></script>
 </body>
 <script type="text/javascript">
     $(window).on('beforeunload', function(){
