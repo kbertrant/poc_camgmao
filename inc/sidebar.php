@@ -90,8 +90,13 @@
             </a>
           </li>
           <li class="menu-item">
-            <a href="" class="menu-link">
+            <a href="piecesDetachees.php" class="menu-link">
               <div data-i18n="Pieces detachees">Pièces détachées</div>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="famillePiecesDetachees.php" class="menu-link">
+              <div data-i18n="Pieces detachees">Famille Pièces détachées</div>
             </a>
           </li>
           <li class="menu-item">
@@ -147,7 +152,7 @@
 
         <ul class="menu-sub ">
           <li class="menu-item ">
-            <a href="" class="menu-link">
+            <a href="reception.php" class="menu-link">
               <div data-i18n="Categories de produit">Reception</div>
             </a>
           </li>
