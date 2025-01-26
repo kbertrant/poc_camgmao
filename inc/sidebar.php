@@ -176,7 +176,7 @@
         </a>
       </li>
       <li class="menu-item ">
-        <a href="#" class="menu-link">
+        <a href="gestionPersonnels.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-layout"></i>
           <div data-i18n="Basic"> Gestion des equipes</div>
         </a>

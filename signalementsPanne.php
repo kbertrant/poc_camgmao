@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>CAMGMAO - Ordres de travail</title>
+    <title>CAMGMAO -Incident</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
@@ -92,7 +92,53 @@
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEquip"
                         data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouvel incident</button>
                 </div><br>
-               
+                <div class="modal fade" id="addEquip" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="addEquipLabel">Créer un Nouvel Incident</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form action="soumission.php" method="POST">
+                            <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">DESCRIPTION INCIDENT</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">EQUIPEMENT</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">DIAGNOSTIC</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">MATERIEL INCLUS DANS LA REPARATION</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">DEMANDE NOTIFICATION</label>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="nomEquip" class="form-label">INCIDENT BLOQUANT</label>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">OUI</option>
+                                    <option value="2">NON</option>
+                                 
+                                </select>
+                            </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                            <button type="submit" class="btn btn-primary">Soumettre</button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
                 <div class="card">
                     <h5 class="card-header">Liste des incidents</h5>
                     <div class="card-body">
