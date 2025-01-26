@@ -101,7 +101,7 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">CAT.</th>
+                                        <th scope="col">EQUIPEMENT</th>
                                         <th scope="col">DESCRIPTION</th>
                                         <th scope="col">PHASE</th>
                                         <th scope="col">RESP.</th>
