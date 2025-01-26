@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>CAMGMAO -Type fonction Equipement</title>
+    <title>CAMGMAO -Statut Equipement</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
@@ -74,7 +74,7 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">Types fonctionnement </span> equipement
+            <span class="text-muted fw-light"> Statut </span> equipement
         </h4>
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
@@ -85,10 +85,10 @@
                     @include 'addEquipement';
                     ?>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouveau type </button>
+                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouveau statut </button>
                 </div><br>
                 <div class="card">
-                    <h5 class="card-header">Liste des types</h5>
+                    <h5 class="card-header">Liste des statuts</h5>
                     <div class="card-body">
                         <div class="table-responsive text-nowrap">
                         <table class="table">

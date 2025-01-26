@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>CAMGMAO -Famille des Pièces Détachées</title>
+    <title>CAMGMAO -Famille Pièces Détachées</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
@@ -79,7 +79,7 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">Famille</span> Pièces.D
+            <span class="text-muted fw-light">Famille</span> Pièces détachées
         </h4>
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
@@ -136,34 +136,29 @@
                                 <tbody>
                                     <tr>
                                         <td scope="col">1</td>
-                                        <td scope="col">Sterilisateur</td>
-                                        <td scope="col">Diminution de chaleur</td>
+                                        <td scope="col">Materiel electrique</td>
+                                        <td scope="col">Materiel electrique</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">2</td>
-                                        <td scope="col">Scanners</td>
-                                        <td scope="col">Imagerie pas nette </td>
+                                        <td scope="col">Consommables chirurgie</td>
+                                        <td scope="col">Consommables chirurgie</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">3</td>
-                                        <td scope="col">Scanners</td>
-                                        <td scope="col">Image pas nette</td>
+                                        <td scope="col">Materiel electronique</td>
+                                        <td scope="col">Materiel electronique</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">4</td>
-                                        <td scope="col">Instruments</i></td>
-                                        <td scope="col">Scalpel cassé</td>
+                                        <td scope="col">Fournitures depannage</i></td>
+                                        <td scope="col">Fournitures depannage</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
-                                    <tr>
-                                        <td scope="col">5</td>
-                                        <td scope="col">Microscopes</td>
-                                        <td scope="col">Scalpel cassé</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
-                                    </tr>
+                                    
                                 </tbody>
 
                             </table>

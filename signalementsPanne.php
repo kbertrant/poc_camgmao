@@ -79,7 +79,7 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">Signaler  </span> une panne
+            <span class="text-muted fw-light">Signaler  </span> un incident
         </h4>
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
@@ -90,62 +90,11 @@
                     @include('addEquipement');
                     ?>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEquip"
-                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouvelle panne</button>
+                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouvel incident</button>
                 </div><br>
-                <div class="modal fade" id="addEquip" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="addEquipLabel">Nouvelle panne</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <form action="soumus.php" method="POST">
-                                <div class="modal-body">
-                                    <div class="mb-3">
-                                        <label for="nomEquip" class="form-label">Equipement</label>
-                                        <select class="form-select" id="exampleSelect" aria-label="Sélection">
-                                            <option selected></option>
-                                            <option value="1">7023-Scanner Alternup medical </option>
-                                            <option value="2">3409-Lit electrique chirurgicale </option>
-                                            <option value="3">2367-Endoscope Alternup medical</option>
-                                            <option value="3">5609-Echographe Blader</option>
-                                            <option value="3">1178-Tensiometre OmRON M3</option>
-                                            <option value="4">3465-Otoscope MacroView à FO LED </option>
-                                        </select>
-                                    </div>
-                                
-                                    <div class="mb-3">
-                                        <label for="nomEquip" class="form-label">Service</label>
-                                        <select class="form-select" id="exampleSelect" aria-label="Sélection">
-                                            <option selected></option>
-                                            <option value="1">Marternite</option>
-                                            <option value="2">Ophtamologie</option>
-                                            <option value="3">Cardiologie</option>
-                                            <option value="3">Traumatologie</option>
-                                            <option value="3">Neurologie</option>
-                                            <option value="4">Bacteriologie</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="nomEquip" class="form-label">Daignostique</label>
-                                        <textarea type="text" class="form-control" id="nomEquip" name="nomEquip" required>
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="nomEquip" class="form-label">DEMANDEUR</label>
-                                        <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-                                    <button type="submit" class="btn btn-primary">Ajouter</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
+               
                 <div class="card">
-                    <h5 class="card-header">Liste des pannes</h5>
+                    <h5 class="card-header">Liste des incidents</h5>
                     <div class="card-body">
                         <div class="table-responsive  text-nowrap">
                             <table class="table table-striped table-bordered" id="produitable">

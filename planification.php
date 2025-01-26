@@ -82,118 +82,38 @@
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
             <div class="flex-grow-1 mt-3 mt-sm-5">
-                <div
-                    class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-4 flex-md-row flex-column gap-4">
-                    <?php
-                    @include 'addEquipement';
-                    ?>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Ajouter</button>
-                </div><br>
-                <!-- <div class="card">
-                    <h5 class="card-header">Liste des types</h5>
-                    <div class="card-body">
-                        <div class="table-responsive text-nowrap">
-                        <table class="table">
-                    <thead>
-                      <tr>
-                        <th>CODE</th>
-                        <th>LIBELLE</th>
-                        <th>COULEUR</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody class="table-border-bottom-0">
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>AP</strong></td>
-                        <td>Arret prevu</td>
-                        <td><span class="badge bg-label-warning me-1">Jaune</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong>CE </strong></td>
-                        <td> Changement equipement</td>
+                <br>
+                <div class="modal fade" id="DetailPlan" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="addEquipLabel">Details planification</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
                         
-                        <td><span class="badge bg-label-primary me-1">blue</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-2"></i> Delete</a
-                              >
+                            <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="code" class="form-label">Appareil</label>
+                                <span id="title" name="title"></span>
                             </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong>MAINT </strong></td>
-                        <td>Maintenance </td>
-                        
-                        <td><span class="badge bg-label-danger me-1">red</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-2"></i> Delete</a
-                              >
+                            <div class="mb-3">
+                                <label for="libelle" class="form-label">Service affecté</label>
+                                <span id="description" name="description"></span>
                             </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>EM </strong>
-                        </td>
-                        <td>En marche </td>
-                        
-                        <td><span class="badge bg-label-success me-1">green</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-2"></i> Delete</a
-                              >
+                            <div class="mb-3">
+                                <label for="libelle" class="form-label">Mis en marche</label>
+                                <span id="start" name="start"></span>
                             </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                            <div class="mb-3">
+                                <label for="libelle" class="form-label">URL</label>
+                                <span id="url" name="url"></span>
+                            </div>
+                            </div>
+                           
                         </div>
                     </div>
-                </div> -->
+                </div>
+
             </div>
         </div>
         
@@ -259,56 +179,78 @@ document.addEventListener('DOMContentLoaded', function() {
           editable: true,
           selectable: true,
           initialView: 'dayGridMonth',
+          eventRender: function(info) {
+            var tooltip = new Tooltip(info.el, {
+              title: info.event.extendedProps.description,
+              placement: 'top',
+              trigger: 'hover',
+              container: 'body'
+            });
+          },
                 events: [
             {
-              title: 'shantui 12T',
+              title: 'Coloscope GER234',
               start: '2025-01-12T14:30:00',
+              end: '2025-01-13T14:30:00',
+              description:'Service oncologie',
               extendedProps: {
-                status: 'done'
+              status: 'done'
               }
             },
             {
-          display: 'background',
-              title: 'Forklift 16T',
+              display: 'background',
+              title: 'Scanner retinien',
               start: '2025-01-13T07:00:00',
+        end: '2025-01-13T07:00:00',
+        description:'Service ophtalmologie',
               backgroundColor: 'green',
-              borderColor: 'green'
+              borderColor: 'green',
+             // url:'detailPlanification.php'
             },
             {
-              title: 'Sinotruck HOWO ',
+              title: 'Echographe',
               start: '2025-01-13T07:00:00',
-              backgroundColor: 'green',
-              borderColor: 'green'
+        end: '2025-01-13T07:00:00',
+        description:'Service ophtalmologie',
+        color: 'purple'
+              //url:'detailPlanification.php'
             },
-    {
-      title: 'Sinotruck HOWO ',
-      start: '2025-01-03T17:00:00',
-      backgroundColor: 'green',
-      borderColor: 'green'
-    }
-    ,
-    {
-      title: 'Sinotruck HOWO ',
-      start: '2025-01-05T07:00:00',
-      backgroundColor: 'green',
-      borderColor: 'green'
-    }
-    ,
-    {
-      title: 'Sinotruck HOWO ',
-      start: '2025-01-21T07:00:00',
-      backgroundColor: 'green',
-      borderColor: 'green'
-    }
+            {
+              title: 'Scanner cranien',
+              start: '2025-01-03T17:00:00',
+              end: '2025-01-04T07:00:00',
+        description:'Service ophtalmologie',
+              backgroundColor: 'green',
+              borderColor: 'green',
+              //url:'detailPlanification.php'
+            }
+            ,
+            {
+              title: 'Optique retinien',
+              start: '2025-01-05T07:00:00',
+              end: '2025-01-07T07:00:00',
+        description:'Service ophtalmologie',
+              backgroundColor: 'green',
+              borderColor: 'green',
+              //url:'detailPlanification.php'
+            }
+            ,
+            {
+              title: 'Appareil dentaire',
+              start: '2025-01-21T07:00:00',
+              end: '2025-01-22T18:00:00',
+        description:'Service dentaire',
+        color: 'purple'
+              //url:'detailPlanification.php'
+            }
           ],
-        eventClick: function(info) {
-          alert('Event: ' + info.event.title);
-          alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
-          alert('View: ' + info.view.type);
-
-          // change the border color just for fun
-          info.el.style.borderColor = 'red';
-        }
+        eventClick:  function(info, jsEvent, view) {
+            $('#title').html(info.event.title);
+            $('#description').html(info.event.description);
+            $('#start').html(info.event.start);
+            $('#url').attr('href',info.event.url);
+            $('#DetailPlan').modal('show');
+        },
         });
         calendar.render();
       });

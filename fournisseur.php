@@ -150,7 +150,6 @@
                                         <th scope="col">NAME</th>
                                         <th scope="col">ADDRESSE</th>
                                         <th scope="col">PHONE</th>
-                                        <th scope="col">STATUS</th>
                                         <th scope="col">MANAGER</th>
                                         <th scope="col">RCCM</th>
                                         <th scope="col">EMAIL</th>
@@ -161,25 +160,34 @@
                                     <tr>
                                         <td scope="col">1</td>
                                         <td scope="col">CD00</td>
-                                        <td scope="col">Hurtel</td>
+                                        <td scope="col">MEDISOFT CORP.</td>
                                         <td scope="col"></td>
                                         <td scope="col">697258412</td>
-                                        <td scope="col">A</td>
-                                        <td scope="col">Kemogne</td>
+                                        <td scope="col">Kemogne JM</td>
                                         <td scope="col">RE0025</td>
-                                        <td scope="col">dom@gmail.com</td>
+                                        <td scope="col">medisoft@gmail.com</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">2</td>
                                         <td scope="col">CD87</td>
-                                        <td scope="col">Patrick</td>
+                                        <td scope="col">ALTERNUP MEDICAL SARL</td>
                                         <td scope="col"></td>
                                         <td scope="col">677289823</td>
-                                        <td scope="col">A</td>
-                                        <td scope="col">Kame</td>
+                                        <td scope="col">Kame William</td>
                                         <td scope="col">RE0048</td>
-                                        <td scope="col">pat@gmail.com</td>
+                                        <td scope="col">alternup@gmail.com</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="col">2</td>
+                                        <td scope="col">CD87</td>
+                                        <td scope="col">MECA-UP  SARL</td>
+                                        <td scope="col"></td>
+                                        <td scope="col">677289823</td>
+                                        <td scope="col">SANDJI Albert</td>
+                                        <td scope="col"></td>
+                                        <td scope="col">info@meca-up.com</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                 </tbody>

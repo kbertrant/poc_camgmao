@@ -101,7 +101,7 @@
           </li>
           <li class="menu-item">
             <a href="typefonctionequip.php" class="menu-link">
-              <div data-i18n="Type fonction Equipement">Type fonction Equipement</div>
+              <div data-i18n="Type fonction Equipement">Statut  Equipement</div>
             </a>
           </li>
         </ul>
@@ -114,13 +114,13 @@
 
         <ul class="menu-sub ">
           <li class="menu-item">
-            <a href="" class="menu-link">
+            <a href="#" class="menu-link">
               <div data-i18n="Types de client">Preventive </div>
             </a>
           </li>
           <li class="menu-item">
-            <a href="" class="menu-link">
-              <div data-i18n="Liste de client">Planifiée</div>
+            <a href="#" class="menu-link">
+              <div data-i18n="Liste de client">Curative</div>
             </a>
           </li>
           <li class="menu-item">
@@ -157,7 +157,7 @@
             </a>
           </li>
           <li class="menu-item ">
-            <a href="" class="menu-link">
+            <a href="#" class="menu-link">
               <div data-i18n="Liste de produits">Sortie</div>
             </a>
           </li>
@@ -172,7 +172,13 @@
       <li class="menu-item ">
         <a href="signalementsPanne.php" class="menu-link">
           <i class="menu-icon tf-icons bx bx-store"></i>
-          <div data-i18n="Basic">Signalements de panne</div>
+          <div data-i18n="Basic">Signaler des incidents</div>
+        </a>
+      </li>
+      <li class="menu-item ">
+        <a href="#" class="menu-link">
+          <i class="menu-icon tf-icons bx bx-layout"></i>
+          <div data-i18n="Basic"> Gestion des equipes</div>
         </a>
       </li>
     </ul>

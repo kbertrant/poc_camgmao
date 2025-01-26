@@ -102,7 +102,7 @@
                         <form action="soumission.php" method="POST">
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">CATEGORIE</label>
+                                <label for="nomEquip" class="form-label">Famille </label>
                                 <select class="form-select" id="exampleSelect" aria-label="Sélection">
                                     <option selected></option>
                                     <option value="1">Arret prevu</option>
@@ -112,27 +112,27 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">DESCRIPTION</label>
+                                <label for="nomEquip" class="form-label">Description</label>
                                 <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">QANTITE</label>
+                                <label for="nomEquip" class="form-label">Quantite</label>
                                 <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">NOM</label>
+                                <label for="nomEquip" class="form-label">Nom</label>
                                 <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">MONTANT</label>
+                                <label for="nomEquip" class="form-label">Montant</label>
                                 <input type="number" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">DATE.D.MVT</label>
+                                <label for="nomEquip" class="form-label">Date dernier Mvt</label>
                                 <input type="date" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">DATE.A</label>
+                                <label for="nomEquip" class="form-label">Date achat</label>
                                 <input type="date" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             </div>
@@ -146,111 +146,84 @@
                 </div>
 
                 <div class="card">
-                    <h5 class="card-header">Liste des pieces</h5>
+                    <h5 class="card-header">Liste des pièces détachées</h5>
                     <div class="card-body">
                         <div class="table-responsive  text-nowrap">
                             <table class="table table-striped table-bordered" id="produitable">
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">CAT.</th>
-                                        <th scope="col">DESCRIPTION</th>
-                                        <th scope="col">QANTITE</th>
-                                        <th scope="col">NOM</th>
+                                        <th scope="col">FAMILLE</th>
+                                        <th scope="col">DESIGNATION</th>
+                                        <th scope="col">QUANTITE</th>
                                         <th scope="col">MONTANT</th>
-                                        <th scope="col">DATE.D.MVT</th>
-                                        <th scope="col">DATE.A</th>
+                                        <th scope="col">DATE D. MVT</th>
+                                        <th scope="col">DATE ACHAT</th>
+                                        <th scope="col">ACTION</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td scope="col">1</td>
-                                        <td scope="col">Sterilisateur</td>
-                                        <td scope="col">Diminution de chaleur</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
-                                        <td scope="col">--</td>
-                                        <td scope="col">Ampoules violette etainte</td>
-                                        <td scope="col">Dr. NANA</td>
+                                        <td scope="col">Materiel electronique</td>
+                                        <td scope="col">Lecteur imagerie</td>
+                                        <td scope="col">3</td>
+                                        <td scope="col">340 000 XAF</td>
+                                        <td scope="col">12/11/2024</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">2</td>
-                                        <td scope="col">Scanners</td>
-                                        <td scope="col">Imagerie pas nette </td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Colette FONKOU</td>
-                                        <td scope="col">Ampoules grillées</td>
-                                        <td scope="col">Dr. Mbollo </td>
+                                        <td scope="col">Materiel electrique</td>
+                                        <td scope="col">Boitier alimentation</td>
+                                        <td scope="col">9</td>
+                                        <td scope="col">54 000 XAF </td>
+                                        <td scope="col">14/12/2024</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">3</td>
-                                        <td scope="col">Scanners</td>
-                                        <td scope="col">Image pas nette</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
-                                        <td scope="col">Olivier Wague</td>
-                                        <td scope="col">Plancher d'impression </td>
-                                        <td scope="col">Dr. NTAMACK Leslie</td>
+                                        <td scope="col">Materiel electronique</td>
+                                        <td scope="col">Regulateur optique echographe</td>
+                                        <td scope="col">3</td>
+                                        <td scope="col">1 340 000 XAF </td>
+                                        <td scope="col">12/05/2024</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">4</td>
-                                        <td scope="col">Instruments</i></td>
-                                        <td scope="col">Scalpel cassé</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
-                                        <td scope="col">Georges W.</td>
-                                        <td scope="col">Rouille sur les instruments</td>
-                                        <td scope="col">Dr. Ayele </td>
+                                        <td scope="col">Materiel electronique</i></td>
+                                        <td scope="col">Fusibles - coupe circuit </td>
+                                        <td scope="col">7</td>
+                                        <td scope="col">23 000 XAF</td>
+                                        <td scope="col">02/01/2025</td>
                                         <td scope="col">02/09/2022</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">5</td>
-                                        <td scope="col">Microscopes</td>
+                                        <td scope="col">Materiel electrique</td>
                                         <td scope="col">Lentilles endommagées</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-danger">En panne</button></td>
-                                        <td scope="col">--</td>
-                                        <td scope="col">Lentilles d'aggrandissement  </td>
-                                        <td scope="col"> Blaise NONO</td>
+                                        <td scope="col">13</td>
+                                        <td scope="col">130 500 XAF</td>
+                                        <td scope="col"> 01/02/2023</td>
                                         <td scope="col">17/06/2018</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">6</td>
-                                        <td scope="col">Scanners</td>
-                                        <td scope="col">Demarrage bruyant </td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Rene Bell</td>
-                                        <td scope="col">Surface de scanne</td>
-                                        <td scope="col"> Henri S.</td>
+                                        <td scope="col">Consommables informatiques</td>
+                                        <td scope="col">Encre scanners</td>
+                                        <td scope="col">45</td>
+                                        <td scope="col">31 000 XAF</td>
+                                        <td scope="col"> 11/02/2021</td>
                                         <td scope="col">11/02/2021</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
-                                    <tr>
-                                        <td scope="col">7</td>
-                                        <td scope="col">Table hospitalisation</td>
-                                        <td scope="col">Accoudoir et mousse </td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Antoine N.</td>
-                                        <td scope="col">Boite alimentation</td>
-                                        <td scope="col">Dr Mbeleck</td>
-                                        <td scope="col">12/05/2023</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="col">8</td>
-                                        <td scope="col">Scanners</td>
-                                        <td scope="col">Circuit de charge</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
-                                        <td scope="col">M. ZANG</td>
-                                        <td scope="col">RANCON</td>
-                                        <td scope="col">DR. Noubissie </td>
-                                        <td scope="col">12/05/2024</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
-                                    </tr>
+                                    
                                 </tbody>
 
                             </table>
