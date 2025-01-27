@@ -102,13 +102,13 @@
                         <form action="" >
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label for="nomEquip" class="form-label">CATEGORIE</label>
+                                <label for="nomEquip" class="form-label">EQUIPEMENT</label>
                                 <select class="form-select" id="exampleSelect" aria-label="Sélection">
                                     <option selected></option>
-                                    <option value="1">Arret prevu</option>
-                                    <option value="2">Changement equipement</option>
-                                    <option value="3">Maintenance</option>
-                                    <option value="3">En marche</option>
+                                    <option value="1">Table hospitalisation</option>
+                                    <option value="2">Microscopes</option>
+                                    <option value="3">Instruments</option>
+                                    <option value="3">Scanners</option>
                                 </select>
                             </div>
                             <div class="mb-3">
@@ -153,7 +153,7 @@
                                 <thead>
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">CAT.</th>
+                                        <th scope="col">EQUIPEMENT</th>
                                         <th scope="col">DESCRIPTION</th>
                                         <th scope="col">PHASE</th>
                                         <th scope="col">RESP.</th>

@@ -107,7 +107,17 @@
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">NOM.P.D</label>
-                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">Circuit de charge</option>
+                                    <option value="2">Accoudoir et mousse</option>
+                                    <option value="3">Demarrage bruyant</option>
+                                    <option value="3">Lentilles endommagées</option>
+                                    <option value="3">Scalpel cassé</option>
+                                    <option value="3">Imagerie pas nette</option>
+                                    <option value="3">Scalpel cassé</option>
+                                    <option value="3">Diminution de chaleur</option>
+                                </select>
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">UNITE</label>
@@ -115,7 +125,13 @@
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">FAMILLE.P.D</label>
-                                <input type="number" class="form-control" id="nomEquip" name="nomEquip" required>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">Consommable chirurgie</option>
+                                    <option value="2">Materiel electrique</option>
+                                    <option value="3">Materiel electronique</option>
+                                
+                                </select>
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">QUANTITE</label>
@@ -123,7 +139,12 @@
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">FOURNISSEUR</label>
-                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">MECA-UP SARL</option>
+                                    <option value="2">Alternup medical</option>
+                                    <option value="3">Rancon Technologies</option>
+                                </select>
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">EMPLACEMENT</label>
