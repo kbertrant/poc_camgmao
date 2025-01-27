@@ -78,41 +78,55 @@
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
             <span class="text-muted fw-light">Vos </span> planifications
-        </h4>
+        </h4>          
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
             <div class="flex-grow-1 mt-3 mt-sm-5">
-                <br>
-                <div class="modal fade" id="DetailPlan" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
+            <div
+              class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-4 flex-md-row flex-column gap-4">
+              <?php
+              @include('addEquipement');
+              ?>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEquip"
+                  data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouveau planing</button>
+          </div><br>
+          <div class="modal fade" id="addEquip" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="addEquipLabel">Details planification</h5>
+                            <h5 class="modal-title" id="addEquipLabel">Créer un nouveau planing</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        
+                        <form action="" >
                             <div class="modal-body">
                             <div class="mb-3">
-                                <label for="code" class="form-label">Appareil</label>
-                                <span id="title" name="title"></span>
+                                <label for="nomEquip" class="form-label">LISTE DES EQUIPEMENTS</label>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">Table hospitalisation</option>
+                                    <option value="2">Microscopes</option>
+                                    <option value="3">Instruments</option>
+                                    <option value="3">Scanners</option>
+                                </select>
                             </div>
                             <div class="mb-3">
-                                <label for="libelle" class="form-label">Service affecté</label>
-                                <span id="description" name="description"></span>
-                            </div>
-                            <div class="mb-3">
-                                <label for="libelle" class="form-label">Mis en marche</label>
-                                <span id="start" name="start"></span>
-                            </div>
-                            <div class="mb-3">
-                                <label for="libelle" class="form-label">URL</label>
-                                <span id="url" name="url"></span>
+                                <label for="nomEquip" class="form-label">PERIODE DE MAINTENANCE</label>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">Tous les mois</option>
+                                    <option value="2">Toutes les semaines</option>
+                                </select>
                             </div>
                             </div>
-                           
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                            <button type="submit" class="btn btn-primary">Soumettre</button>
+                            </div>
+                        </form>
                         </div>
                     </div>
                 </div>
+               
 
             </div>
         </div>

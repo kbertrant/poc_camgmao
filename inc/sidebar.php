@@ -114,7 +114,7 @@
 
         <ul class="menu-sub ">
           <li class="menu-item">
-            <a href="#" class="menu-link">
+            <a href="preventive.php" class="menu-link">
               <div data-i18n="Types de client">Preventive </div>
             </a>
           </li>
@@ -138,12 +138,6 @@
         </a>
       </li>
       <!-- Cards -->
-      <li class="menu-item ">
-        <a href="" class="menu-link">
-          <i class="menu-icon tf-icons bx bx-store"></i>
-          <div data-i18n="Basic">Demandes d'intervention</div>
-        </a>
-      </li>
       <li class="menu-item">
         <a href="javascript:void(0);" class="menu-link menu-toggle">
           <i class="menu-icon tf-icons bx bx-layout"></i>
