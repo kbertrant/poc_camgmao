@@ -121,7 +121,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">RESPONSABLE</label>
-                                <input type="file" class="form-control" id="nomEquip" name="nomEquip" required>
+                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">ACTIF</label>
