@@ -10,7 +10,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>CAMGMAO -Gestion du personnels</title>
+    <title>CAMGMAO -Gestion du personnel</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
@@ -77,7 +77,7 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">votre</span> personnel
+            <span class="text-muted fw-light">Gestion du</span> personnel
         </h4>
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
@@ -87,7 +87,7 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="addEquipLabel">Details planification</h5>
+                            <h5 class="modal-title" id="addEquipLabel">Detail du personnel </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         
@@ -188,8 +188,34 @@ document.addEventListener('DOMContentLoaded', function() {
             });
           },
                 events: [
+                  {
+              title: 'Mangolo Hermann',
+              start: '2024-12-29T14:30:00',
+              end: '2024-12-30T14:30:00',
+              description:'Service oncologie',
+              extendedProps: {
+              status: 'done'
+              }
+            },
             {
-              title: 'Chatinelle',
+              title: 'Tchinda Joseph',
+              start: '2024-12-31T07:00:00',
+        end: '2025-01-01T09:00:00',
+        description:'Service ophtalmologie',
+              backgroundColor: 'green',
+              borderColor: 'green',
+             // url:'detailPlanification.php'
+            },
+            {
+              title: 'Atangana Eric',
+              start: '2025-01-13T07:00:00',
+        end: '2025-01-13T07:00:00',
+        description:'Service ophtalmologie',
+        color: 'purple'
+              //url:'detailPlanification.php'
+            },
+            {
+              title: 'Kana Jean',
               start: '2025-01-12T14:30:00',
               end: '2025-01-13T14:30:00',
               description:'Service oncologie',
@@ -197,9 +223,17 @@ document.addEventListener('DOMContentLoaded', function() {
               status: 'done'
               }
             },
+        {
+              title: 'Kana Jean',
+              start: '2025-01-08T14:30:00',
+              end: '2025-01-08T14:30:00',
+              description:'Service oncologie',
+              extendedProps: {
+              status: 'done'
+              }
+            },
             {
-              display: 'background',
-              title: 'Kalazan',
+              title: 'Kamsi yannick',
               start: '2025-01-13T07:00:00',
         end: '2025-01-13T07:00:00',
         description:'Service ophtalmologie',
@@ -208,15 +242,23 @@ document.addEventListener('DOMContentLoaded', function() {
              // url:'detailPlanification.php'
             },
             {
-              title: 'Wisman',
+              title: 'Djama Marcel',
               start: '2025-01-13T07:00:00',
         end: '2025-01-13T07:00:00',
         description:'Service ophtalmologie',
         color: 'purple'
               //url:'detailPlanification.php'
             },
+        {
+              title: 'Djama Marcel',
+              start: '2025-01-08T07:00:00',
+        end: '2025-01-08T07:00:00',
+        description:'Service ophtalmologie',
+        color: 'purple'
+              //url:'detailPlanification.php'
+            },
             {
-              title: 'Ndjerem',
+              title: 'Ndjerem Armel',
               start: '2025-01-03T17:00:00',
               end: '2025-01-04T07:00:00',
         description:'Service ophtalmologie',
@@ -226,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             ,
             {
-              title: 'Ngoloko',
+              title: 'Ngoloko Adrien',
               start: '2025-01-05T07:00:00',
               end: '2025-01-07T07:00:00',
         description:'Service ophtalmologie',
@@ -236,9 +278,36 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             ,
             {
-              title: 'Degama',
+              title: 'Ismael Baba',
               start: '2025-01-21T07:00:00',
               end: '2025-01-22T18:00:00',
+        description:'Service dentaire',
+        color: 'purple'
+              //url:'detailPlanification.php'
+            }
+            ,
+            {
+              title: 'Garba dadani',
+              start: '2025-01-16T07:00:00',
+              end: '2025-01-16T18:00:00',
+        description:'Service dentaire',
+        color: 'purple'
+              //url:'detailPlanification.php'
+            }
+            ,
+            {
+              title: 'Garba dadani',
+              start: '2025-01-18T07:00:00',
+              end: '2025-01-18T18:00:00',
+        description:'Service dentaire',
+        color: 'purple'
+              //url:'detailPlanification.php'
+            }
+            ,
+            {
+              title: 'Wouira Abdel',
+              start: '2025-01-17T07:00:00',
+              end: '2025-01-17T18:00:00',
         description:'Service dentaire',
         color: 'purple'
               //url:'detailPlanification.php'

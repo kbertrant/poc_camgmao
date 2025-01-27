@@ -79,7 +79,7 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">Recep </span>tion
+            <span class="text-muted fw-light">Reception </span> des commandes
         </h4>
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
@@ -90,7 +90,7 @@
                     @include('addEquipement');
                     ?>
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEquip"
-                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouvelle recption</button>
+                        data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouvelle reception</button>
                 </div><br>
                 <div class="modal fade" id="addEquip" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -148,7 +148,7 @@
                 </div>
 
                 <div class="card">
-                    <h5 class="card-header">Liste des reception</h5>
+                    <h5 class="card-header">Liste des receptions</h5>
                     <div class="card-body">
                         <div class="table-responsive  text-nowrap">
                             <table class="table table-striped table-bordered" id="produitable">
@@ -161,97 +161,96 @@
                                         <th scope="col">FAMILLE.P.D</th>
                                         <th scope="col">QUANTITE</th>
                                         <th scope="col">FOURNISSEUR</th>
-                                        <th scope="col">EMPLACEMENT</th>
-                                        <th scope="col">PRIX BRUT</th>
-                                        <th scope="col">COUT D'ACHAT</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Action </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td scope="col">1</td>
-                                        <td scope="col">Sterilisateur</td>
+                                        <td scope="col">CMD0234</td>
                                         <td scope="col">Diminution de chaleur</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
-                                        <td scope="col">--</td>
-                                        <td scope="col">Ampoules violette etainte</td>
-                                        <td scope="col">Dr. NANA</td>
+                                        <td scope="col">Materiel electronique</td>
+                                        <td scope="col">45</td>
+                                        <td scope="col">Rancon Technologies</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">2</td>
-                                        <td scope="col">Scanners</td>
+                                        <td scope="col">CMD0237</td>
                                         <td scope="col">Imagerie pas nette </td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Colette FONKOU</td>
-                                        <td scope="col">Ampoules grillées</td>
-                                        <td scope="col">Dr. Mbollo </td>
+                                        <td scope="col">Materiel electrique </td>
+                                        <td scope="col">9 </td>
+                                        <td scope="col">Alternup medical</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">3</td>
-                                        <td scope="col">Scanners</td>
+                                        <td scope="col">CMD0231</td>
                                         <td scope="col">Image pas nette</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
-                                        <td scope="col">Olivier Wague</td>
-                                        <td scope="col">Plancher d'impression </td>
-                                        <td scope="col">Dr. NTAMACK Leslie</td>
+                                        <td scope="col">Materiel electronique </td>
+                                        <td scope="col">24</td>
+                                        <td scope="col">MECA-UP SARL </td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">4</td>
-                                        <td scope="col">Instruments</i></td>
+                                        <td scope="col">CMD0239</i></td>
                                         <td scope="col">Scalpel cassé</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
-                                        <td scope="col">Georges W.</td>
-                                        <td scope="col">Rouille sur les instruments</td>
-                                        <td scope="col">Dr. Ayele </td>
+                                        <td scope="col">Materiel electronique</td>
+                                        <td scope="col">11 </td>
+                                        <td scope="col">Alternup medical </td>
                                         <td scope="col">02/09/2022</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">5</td>
-                                        <td scope="col">Microscopes</td>
+                                        <td scope="col">CMD0242</td>
                                         <td scope="col">Lentilles endommagées</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-danger">En panne</button></td>
-                                        <td scope="col">--</td>
-                                        <td scope="col">Lentilles d'aggrandissement  </td>
-                                        <td scope="col"> Blaise NONO</td>
+                                        <td scope="col">Materiel electrique</td>
+                                        <td scope="col"> 10</td>
+                                        <td scope="col">MECA-UP SARL </td>
                                         <td scope="col">17/06/2018</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">6</td>
-                                        <td scope="col">Scanners</td>
+                                        <td scope="col">CMD0247</td>
                                         <td scope="col">Demarrage bruyant </td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Rene Bell</td>
-                                        <td scope="col">Surface de scanne</td>
-                                        <td scope="col"> Henri S.</td>
+                                        <td scope="col"> Materiel electrique</td>
+                                        <td scope="col">23</td>
+                                        <td scope="col">Alternup medical</td>
                                         <td scope="col">11/02/2021</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7</td>
-                                        <td scope="col">Table hospitalisation</td>
+                                        <td scope="col">CMD0240</td>
                                         <td scope="col">Accoudoir et mousse </td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Antoine N.</td>
-                                        <td scope="col">Boite alimentation</td>
-                                        <td scope="col">Dr Mbeleck</td>
+                                        <td scope="col">Consommable chirurgie</td>
+                                        <td scope="col">4</td>
+                                        <td scope="col">Alternup medical</td>
                                         <td scope="col">12/05/2023</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">8</td>
-                                        <td scope="col">Scanners</td>
+                                        <td scope="col">CMD0251</td>
                                         <td scope="col">Circuit de charge</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
-                                        <td scope="col">M. ZANG</td>
-                                        <td scope="col">RANCON</td>
-                                        <td scope="col">DR. Noubissie </td>
+                                        <td scope="col">Materiel electrique</td>
+                                        <td scope="col">12</td>
+                                        <td scope="col">MECA-UP SARL  </td>
                                         <td scope="col">12/05/2024</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
