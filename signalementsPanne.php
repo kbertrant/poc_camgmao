@@ -107,7 +107,13 @@
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">EQUIPEMENT</label>
-                                <input type="text" class="form-control" id="nomEquip" name="nomEquip" required>
+                                <select class="form-select" id="exampleSelect" aria-label="Sélection">
+                                    <option selected></option>
+                                    <option value="1">Table hospitalisation</option>
+                                    <option value="2">Microscopes</option>
+                                    <option value="3">Instruments</option>
+                                    <option value="3">Scanners</option>
+                                </select>
                             </div>
                             <div class="mb-3">
                                 <label for="nomEquip" class="form-label">DIAGNOSTIC</label>
