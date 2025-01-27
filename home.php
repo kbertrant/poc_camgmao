@@ -158,15 +158,55 @@
         </div>
         <!-- Total Revenue -->
         <div class="col-12 col-lg-8 order-2 order-md-3 order-lg-2 mb-4">
-          <div class="card">
-            <div class="row row-bordered g-0">
-              <div class="col-md-12">
-                <h5 class="card-header m-0 me-2 pb-3">Demandes d'intervention </h5>
-                <canvas id="lineChart"></canvas>
+        <div class="row">
+            <div class="col-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-start justify-content-between">
+                    <div class="avatar flex-shrink-0">
+                      <img src="assets/img/icons/unicons/chart-success.png"
+                        alt="chart success" class="rounded" />
+                    </div>
+                    
+                  </div>
+                  <span class="d-block mb-1">Planning des équipements</span>
+                  <h6 class="card-title text-nowrap mb-2">11</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-start justify-content-between">
+                    <div class="avatar flex-shrink-0">
+                    <img src="assets/img/icons/unicons/chart-success.png"
+                    alt="chart success" class="rounded" />
+                    </div>
+                    
+                  </div>
+                  <span class="d-block mb-1">Maintenance préventive à faire</span>
+                  <h6 class="card-title text-nowrap mb-2">5</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-title d-flex align-items-start justify-content-between">
+                    <div class="avatar flex-shrink-0">
+                    <img src="assets/img/icons/unicons/chart-success.png"
+                    alt="chart success" class="rounded" />
+                    </div>
+                    
+                  </div>
+                  <span class="d-block mb-1">Planning des intervenants</span>
+                  <h6 class="card-title text-nowrap mb-2">2</h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        
         <!--/ Total Revenue -->
         <div class="col-12 col-md-8 col-lg-4 order-3 order-md-2">
           <div class="row">

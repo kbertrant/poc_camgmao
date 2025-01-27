@@ -77,7 +77,7 @@
     <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="py-3 mb-4">
-            <span class="text-muted fw-light">Vos </span> planifications
+            <span class="text-muted fw-light">Calendrier de</span> maintenances
         </h4>          
         
         <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
@@ -88,13 +88,13 @@
               @include('addEquipement');
               ?>
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addEquip"
-                  data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouveau planing</button>
+                  data-bs-whatever="@mdo"><i class='bx bx-check me-1'></i>Nouveau planning</button>
           </div><br>
           <div class="modal fade" id="addEquip" tabindex="-1" aria-labelledby="addEquipLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="addEquipLabel">Créer un nouveau planing</h5>
+                            <h5 class="modal-title" id="addEquipLabel">Créer un nouveau planning</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form action="" >

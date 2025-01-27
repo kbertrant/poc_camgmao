@@ -146,7 +146,7 @@
                 </div>
 
                 <div class="card">
-                    <h5 class="card-header">Liste des ordres</h5>
+                    <h5 class="card-header">Liste des maintenances preventives</h5>
                     <div class="card-body">
                         <div class="table-responsive  text-nowrap">
                             <table class="table table-striped table-bordered" id="produitable">
@@ -158,7 +158,6 @@
                                         <th scope="col">PHASE</th>
                                         <th scope="col">RESP.</th>
                                         <th scope="col">ACTIF</th>
-                                        <th scope="col">DEMANDEUR</th>
                                         <th scope="col">DATE</th>
                                         <th scope="col">Action</th>
                                     </tr>
@@ -168,88 +167,80 @@
                                         <td scope="col">1</td>
                                         <td scope="col">Sterilisateur</td>
                                         <td scope="col">Diminution de chaleur</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">Non initié</button></td>
                                         <td scope="col">--</td>
-                                        <td scope="col">Ampoules violette etainte</td>
-                                        <td scope="col">Dr. NANA</td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col">Entretien et usures</td>
+                                        <td scope="col">12/05/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">2</td>
                                         <td scope="col">Scanners</td>
                                         <td scope="col">Imagerie pas nette </td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Colette FONKOU</td>
-                                        <td scope="col">Ampoules grillées</td>
-                                        <td scope="col">Dr. Mbollo </td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">Non initié</button></td>
+                                        <td scope="col">-- </td>
+                                        <td scope="col">Entretien et usures </td>
+                                        <td scope="col">12/05/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">3</td>
                                         <td scope="col">Scanners</td>
                                         <td scope="col">Image pas nette</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
-                                        <td scope="col">Olivier Wague</td>
-                                        <td scope="col">Plancher d'impression </td>
-                                        <td scope="col">Dr. NTAMACK Leslie</td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">Non initié</button></td>
+                                        <td scope="col">--</td>
+                                        <td scope="col"> Entretien et usures </td>
+                                        <td scope="col">12/05/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">4</td>
                                         <td scope="col">Instruments</i></td>
                                         <td scope="col">Scalpel cassé</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
-                                        <td scope="col">Georges W.</td>
-                                        <td scope="col">Rouille sur les instruments</td>
-                                        <td scope="col">Dr. Ayele </td>
-                                        <td scope="col">02/09/2022</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">Non initié</button></td>
+                                        <td scope="col"> --</td>
+                                        <td scope="col">Entretien et usures</td>
+                                        <td scope="col">02/09/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">5</td>
                                         <td scope="col">Microscopes</td>
                                         <td scope="col">Lentilles endommagées</td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-danger">En panne</button></td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">Non initié</button></td>
                                         <td scope="col">--</td>
-                                        <td scope="col">Lentilles d'aggrandissement  </td>
-                                        <td scope="col"> Blaise NONO</td>
-                                        <td scope="col">17/06/2018</td>
+                                        <td scope="col">Entretien et usures  </td>
+                                        <td scope="col">17/06/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">6</td>
                                         <td scope="col">Scanners</td>
                                         <td scope="col">Demarrage bruyant </td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-success">En cours</button></td>
                                         <td scope="col">Rene Bell</td>
-                                        <td scope="col">Surface de scanne</td>
-                                        <td scope="col"> Henri S.</td>
-                                        <td scope="col">11/02/2021</td>
+                                        <td scope="col">Entretien et usures</td>
+                                        <td scope="col">25/01/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">7</td>
                                         <td scope="col">Table hospitalisation</td>
                                         <td scope="col">Accoudoir et mousse </td>
-                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">En cours</button></td>
-                                        <td scope="col">Antoine N.</td>
-                                        <td scope="col">Boite alimentation</td>
-                                        <td scope="col">Dr Mbeleck</td>
-                                        <td scope="col">12/05/2023</td>
+                                        <td scope="col"><button type="button" class="btn btn-sm btn-primary">Non initié</button></td>
+                                        <td scope="col"> --</td>
+                                        <td scope="col">Entretien et usures</td>
+                                        <td scope="col">12/05/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                     <tr>
                                         <td scope="col">8</td>
                                         <td scope="col">Scanners</td>
-                                        <td scope="col">Circuit de charge</td>
+                                        <td scope="col">Circuit de charge, Entretien</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">En arret</button></td>
                                         <td scope="col">M. ZANG</td>
-                                        <td scope="col">RANCON</td>
-                                        <td scope="col">DR. Noubissie </td>
-                                        <td scope="col">12/05/2024</td>
+                                        <td scope="col">Entretien et usures</td>
+                                        <td scope="col">12/01/2025</td>
                                         <td scope="col"><button type="button" class="btn btn-sm btn-warning">V</button> <button type="button" class="btn btn-sm btn-danger">S</button></td>
                                     </tr>
                                 </tbody>
