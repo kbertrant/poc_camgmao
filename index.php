@@ -135,7 +135,7 @@
             <h4 class="mb-2">Bienvenue ! 👋</h4>
             <p class="mb-4">Planifiez vos maintenances </p>
 
-            <form class="mb-4" method="POST" action="{{ route('login') }}">
+            <form class="mb-4" action="home.php">
                
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>

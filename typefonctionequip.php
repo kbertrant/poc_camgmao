@@ -267,7 +267,7 @@
 </html>
 
 
-<form action="" method="POST">
+<form action="">
                                 <div class="modal-body">
                                 <div class="mb-3">
                                     <label for="nomEquip" class="form-label">Equipement</label>

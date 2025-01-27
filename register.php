@@ -131,7 +131,7 @@
             <h4 class="mb-2">Propulsez votre commerce 🚀</h4>
             <p class="mb-4">Changez d'approche manageriale !</p>
 
-            <form class="mb-3" method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
+            <form class="mb-3" action="home.php" enctype="multipart/form-data">
                 
                 <div class="mb-3">
                 <label for="name" class="form-label">Noms</label>

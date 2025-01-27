@@ -94,7 +94,7 @@
                             <h5 class="modal-title" id="addEquipLabel">Créer un Nouvelle categorie</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <form action="soumission.php" method="POST">
+                        <form action="" >
                             <div class="modal-body">
                             <div class="mb-3">
                                 <label for="code" class="form-label">CODE</label>
